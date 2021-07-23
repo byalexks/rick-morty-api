@@ -1,0 +1,33 @@
+.home-main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fef9db;
+}
+
+.home-wallpaper {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+
+.home-wallpaper img {
+  margin-top: 100px;
+  border-radius: 80px;
+  width: 90vw;
+  height: 400px;
+}
+
+.home-content{
+    width: 100vw;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.home-text{
+    text-align: center;
+width: 80vw;
+/* padding-left: 22px; */
+
+}
