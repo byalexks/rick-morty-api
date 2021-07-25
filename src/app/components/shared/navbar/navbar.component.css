@@ -3,6 +3,7 @@
     background-color: #ffece9;
     position: fixed;
     display: flex;
+    justify-content: space-around;
     top: 0;
     max-height: 75px;
     box-shadow: -1px 4px 7px 0px rgba(0,0,0,0.75);
@@ -10,7 +11,9 @@
 }
 
 .navbar-logo{
+    width: 50%;
     display: flex;
+    justify-content: start;
 } 
 .navbar-texto{
     font-size:  2.5rem;
@@ -20,7 +23,7 @@
     display: flex;
     align-items: center;
     font-size: 1.3rem;
-    width: 100%;
+    
 }
 
 .navbar-items-list{
