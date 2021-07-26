@@ -1,0 +1,27 @@
+.about-content-main {
+  background-color: #b0f2c2;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+}
+
+.about-contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.about-contenedor-item {
+  width: 40%;
+  padding-left: 21px;
+}
+
+.about-contenedor-item img {
+  height: 80%;
+  object-fit: cover;
+  object-position: center center;
+}

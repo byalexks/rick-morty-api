@@ -8,10 +8,9 @@ export class CharactersService {
   constructor(private http: HttpClient) {
 
   }
-  getCharacters(){
-    return this.http.get("https://rickandmortyapi.com/api/character");
-    
-
+  getCharacters(page:number=1){
+    return this.http.get(`https://rickandmortyapi.com/api/character/?page=${page}`);
+  
   }
 
 }

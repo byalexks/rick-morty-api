@@ -9,10 +9,16 @@
                     <p class="text-name">Nombre:</p>
                     <p>{{character?.name}}</p>
                </div>
-               <p>{{character?.created}}</p>
+               <div class="card-text">
+                    <p class="text-name">Alive?:</p>
+                    <p>{{character?.status}}</p>
+               </div>
+               <p class="card-text-date">{{character?.created | date:'shortDate'}}</p>
             </div>
         </div>
 
     </div>
-
+    <div>
+        <p>Paginador c supone</p>
+    </div>
 </div>

@@ -2,6 +2,7 @@
     background-color: #b0f2c2;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     
 }
@@ -18,14 +19,22 @@
     margin: 6px;
     width: 320px;
     height: 300px;
-    background-color: antiquewhite;
+    background-color: #c7f6d4;
+    cursor: pointer;
+    box-shadow: -1px 4px 30px 6px rgba(142,250,183,1);
+}
+.card:hover{
+    background-color: aliceblue;
+
+
+
 }
 
 .card-img{
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 12px;
     
 }
 
@@ -43,10 +52,17 @@
 .card-text{
     display: flex;
     justify-content: center;
+    max-height: 20px;
 }
 
 .text-name{
     font-weight: 700;
     padding-right: 3px;
     
+}
+.card-text-date{
+align-self: center;
+font-size: 12px;
+ max-height: 20px;
+ padding-top: 12px;
 }

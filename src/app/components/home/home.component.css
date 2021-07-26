@@ -1,7 +1,7 @@
 .home-main {
   width: 100vw;
-  height: 100vh;
-  background-color: #fef9db;
+  min-height: 100vh;
+  background-color: #b0f2c2;
 }
 
 .home-wallpaper {
@@ -19,7 +19,7 @@
 }
 
 .home-content{
-    width: 100vw;
+width: 100vw;
 display: flex;
 align-items: center;
 flex-direction: column;
