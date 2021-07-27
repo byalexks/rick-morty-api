@@ -12,5 +12,10 @@ export class CharactersService {
     return this.http.get(`https://rickandmortyapi.com/api/character/?page=${page}`);
   
   }
+  searchCharacter(termino:String){
+    return this.http.get(
+      `https://rickandmortyapi.com/api/character/?name=${termino}`
+    );
+  }
 
 }

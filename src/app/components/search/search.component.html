@@ -1,4 +1,27 @@
-<div class="search-content-main">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem qui quo ratione eligendi nihil cupiditate commodi quaerat, unde quasi ipsa facere illo aperiam repellendus, enim placeat at, sit reprehenderit quis.</p>
+<div class="card-maincontent">
+    <div class="card-search">
+            <input #buscarTexto type="text" placeholder="Search..." (keyup.enter)='searchCH(buscarTexto.value)'>        
+    </div>
+    <div class="all-cards">
+        <div class="card" *ngFor="let date of dateSearched">
+            <div class="card-img">
+                <img [src]="date?.image" alt="">
+            </div>
+            <div class="card-body">
+                <div class="card-text">
+                    <p class="text-name">Nombre:</p>
+                    <p>{{date?.name}}</p>
+                </div>
+                <div class="card-text">
+                    <p class="text-name">Alive?:</p>
+                    <p>{{date?.status}}</p>
+                </div>
+                <p class="card-text-date">{{date?.created | date:'shortDate'}}</p>
+            </div>
+        </div>
 
+    </div>
+    <div>
+        <p>Paginador c supone</p>
+    </div>
 </div>

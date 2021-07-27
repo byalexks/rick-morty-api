@@ -1,4 +1,80 @@
-.search-content-main{
-    max-width: 100vw;
+.card-maincontent{
+    background-color: #b0f2c2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card-search{
+    padding-top: 100px;
+}
+.card-search input{
+    width: 400px;
+    margin: 0;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid #000;
 
+}
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    padding-top: 98px;
+    
+}
+.card{
+    margin: 6px;
+    width: 320px;
+    height: 300px;
+    background-color: #c7f6d4;
+    cursor: pointer;
+    box-shadow: -1px 4px 30px 6px rgba(142,250,183,1);
+}
+.card:hover{
+    background-color: aliceblue;
+
+
+
+}
+
+.card-img{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    
+}
+
+.card-img img{
+    width: 200px;
+    border-radius: 33px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+               
+.card-text{
+    display: flex;
+    justify-content: center;
+    max-height: 20px;
+}
+
+.text-name{
+    font-weight: 700;
+    padding-right: 3px;
+    
+}
+.card-text-date{
+align-self: center;
+font-size: 12px;
+ max-height: 20px;
+ padding-top: 12px;
 }
